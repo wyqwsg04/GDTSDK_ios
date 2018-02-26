@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GDTSDK_ios"
-  s.version      = "0.0.2"
+  s.version      = "1.0.0"
   s.summary      = "GDTSDK_ios for AD"
 
   s.description  = <<-DESC
@@ -39,6 +39,7 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
+  s.source_files  = "lib/*.h"
   s.ios.vendored_libraries = 'lib/libGDTMobSDK.a'
 
 end
