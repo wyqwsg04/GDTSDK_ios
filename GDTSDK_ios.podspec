@@ -16,12 +16,12 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
   # s.platform     = :ios, "5.0"
   s.ios.deployment_target    = '8.0'
-  s.source       = { :git => "http://EXAMPLE/GDTSDK_ios.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/wyqwsg04/GDTSDK_ios.git", :tag => s.version.to_s }
 
 #s.source_files  = "Classes", "Classes/**/*.{h,m}"
 #s.exclude_files = "lib/*.h"
 
-   s.public_header_files = "lib/*.h"
+#s.public_header_files = "lib/*.h"
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
@@ -29,10 +29,10 @@ Pod::Spec.new do |s|
 
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "AdSupport", "CoreLocation", "QuarzCore", "SystemConfiguration", "CoreTelephony", "Security", "StoreKit", "WebKit", "AVFoundation"
+  s.frameworks = "AdSupport", "CoreLocation", "QuartzCore", "SystemConfiguration", "CoreTelephony", "Security", "StoreKit", "WebKit", "AVFoundation"
 
   # s.library   = "iconv"
-  s.libraries = "libz", "libxml2"
+  s.libraries = "z", "xml2"
 
   s.requires_arc = true
 
