@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GDTSDK_ios"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "GDTSDK_ios for AD"
 
   s.description  = <<-DESC
